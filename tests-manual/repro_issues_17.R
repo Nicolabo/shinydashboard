@@ -1,7 +1,7 @@
 ## Tries to reproduce Github Issue: https://github.com/rstudio/shinydashboard/issues/17
 
 library(shiny)
-library(shinydashboard)
+library(shinydashboardMB)
 
 body <- dashboardBody(
   uiOutput("ui")

@@ -29,13 +29,13 @@ module.exports = function(grunt) {
       options: {
         force: true  // Don't abort if there are JSHint warnings
       },
-      shinydashboard: {
+      shinydashboardMB: {
         src: srcdir + '/shinydashboard.js',
       }
     },
 
     watch: {
-      shinydashboard: {
+      shinydashboardMB: {
         files: '<%= jshint.shinydashboard.src %>',
         tasks: ['newer:jshint:shinydashboard']
       },
