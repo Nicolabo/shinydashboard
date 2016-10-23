@@ -127,6 +127,7 @@ dashboardHeader <- function(..., title = NULL, shortTitle = NULL, titleWidth = N
       # Sidebar toggle button
       a(href="#", class="sidebar-toggle", `data-toggle`="offcanvas",
         role="button",
+        shiny::icon("angle-left"),
         span(class="sr-only", "Toggle navigation")
       ),
       div(class = "navbar-custom-menu",
