@@ -1,10 +1,10 @@
-Package: shinydashboard
+Package: shinydashboardMB
 Title: Create Dashboards with 'Shiny'
-Version: 0.5.1.9000
+Version: 0.1.0
 Author: Nicolabo
 Description: X
 Maintainer: Who to complain to <yourfault@somewhere.net>
-URL: http://rstudio.github.io/shinydashboard/
+URL: https://github.com/Nicolabo/shinydashboardMB
 Depends:
     R (>= 3.0)
 License: GPL-2 | file LICENSE
@@ -12,5 +12,5 @@ Imports:
     utils,
     shiny (>= 0.12.1),
     htmltools (>= 0.2.6)
-BugReports: https://github.com/rstudio/shinydashboard
+BugReports: https://github.com/Nicolabo/shinydashboardMB
 RoxygenNote: 5.0.1
