@@ -5,7 +5,7 @@
 \title{Dashboard page}
 \usage{
 dashboardPage(header, sidebar, body, title = NULL, skin = c("blue", "black",
-  "purple", "green", "red", "yellow", "green-light"))
+  "purple", "green", "red", "yellow", "green-light", "red-light"))
 }
 \arguments{
 \item{header}{A header created by \code{dashboardHeader}.}
