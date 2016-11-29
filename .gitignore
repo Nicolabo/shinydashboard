@@ -3,3 +3,4 @@
 .RData
 *.sublime-*
 .*.Rnb.cached
+.DS_Store
